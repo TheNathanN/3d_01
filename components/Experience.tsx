@@ -20,7 +20,7 @@ const Experience = () => {
       <ambientLight intensity={0.2} />
       <OrbitControls />
       <mesh ref={sphereRef}>
-        <Sphere meshRef={sphereRef} />
+        <Sphere />
       </mesh>
       <Floor />
     </>
